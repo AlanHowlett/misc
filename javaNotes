@@ -1,0 +1,46 @@
+Java - Paul Dietle 8/25/2020 Oreilly live training
+netbeans
+conventions:
+  classes named Uppercase 1st letter
+  functions lowercase 1st letter
+  variable camelcase, no underscores generally
+  
+  80% of Java users are on version Java 8
+  
+  print
+  printf (formatted)
+  
+  scan (read from keyboard)
+  
+  Public classes may be reused
+  
+  Access specifiers include Public, Private, Protected, Package
+  
+  types include boolean, byte, char, short, int, long, float, double
+  reference types default to null
+  
+  jshell - interactive coding, up and down arrow cmd recall
+  /set feedback verbose
+  /help intro
+  int grade = 80
+  grade+10
+  $2
+  $2*10
+  /list
+  if (grade>60){
+    system.out.println("Passed");
+    }
+  
+  Do 
+  while: //only control which must be terminated with ";"
+
+cmdline:  java programname //no .java
+
+switch (conditional op value)[
+  case ____
+  action
+  break;
+  
+jshell /imports
+
+//end notes
