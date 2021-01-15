@@ -1,0 +1,7 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/AlanHowlett/misc/main/test.csv' AS ROW return ROW
+
+CALL db.schema.visualization
+
+:schema
+
+CALL dbms.procedures()
