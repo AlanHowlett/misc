@@ -1,7 +1,12 @@
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/AlanHowlett/misc/main/test.csv' AS ROW return ROW
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/AlanHowlett/misc/main/test.csv' AS Mopar return Mopar
 
 CALL db.schema.visualization
 
 :schema
 
 CALL dbms.procedures()
+
+https://neo4j.com/graphgist/first-steps-with-cypher
+
+https://neo4j.com/graphacademy/training-intro-40/09-creating-nodes/
